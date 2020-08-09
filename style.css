@@ -33,28 +33,19 @@ body{
             }
 
             .one {
-                height: 30px;
-                width: 30px;
-                animation: spin 1000ms alternate infinite;
-                border: 2px solid #ead019;
-                border-radius: 10%;
+                height: 80px;
+                width: 80px;
+                animation: spin 1000ms linear infinite;
+                border-bottom: 5px solid #ead019;
+                border-radius: 100%;
             }
-
-             .two {
-            height: 50px;
-            width: 50px;
-            animation: spin 1000ms alternate infinite;
-            border: 3px solid rgb(16, 47, 224);
-            border-radius: 10%;
-
-        }
         
         .three {
-            height: 15px;
-            width: 15px;
-            animation: spin 1000ms linear infinite;
-            border: 4px solid #1abc9c;
-            border-radius: 10%;
+            height: 40px;
+            width: 40px;
+            animation: spin-three 1000ms linear infinite;
+            border-top: 5px solid #ffffff;
+            border-radius: 100%;
 
         }
          
@@ -65,6 +56,15 @@ body{
 
                 to {
                     transform: rotate(360deg);
+					 }
+					}
+            @keyframes spin-three {
+                from {
+                    transform: rotate(360deg);
+                }
+
+                to {
+                    transform: rotate(0deg);
 					 }
 					}
 
@@ -122,6 +122,9 @@ body{
 .mainsection .seemore{
 	color: var(--see-more-links);
 	text-decoration: underline;
+}
+.news{
+	padding: 
 }
 .news p{
 	color: var(--see-more-links);
